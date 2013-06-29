@@ -1,0 +1,44 @@
+- O exemplo do paper considera um caso em que o sistema tem duas opçoes de implementação (alternative), 
+mas no caso de uma feature opcional isso é um problema pois sem a feature selecionada não é necessário
+ter código algum. Membros vão ser injetados na classe sem necessidade, desvantagem pra inter-type.
+Edicts não explica como funciona late binding com advices, assumi que é do mesmo jeito que inter-type.
+
+- Muitos hulk methods precisaram ser criados para interceptar pontos no meio de um método ou construtor
+
+- Não há como excluir arquivos auxiliares, ex: "Cloud24.gif" para bindtime dinâmico
+
+- Classes inteiras têm que ficar na build mesmo se não forem usadas, ex: CloudAction
+
+- Na situação seguinte, qual a melhor maneira de refatorar, aspecto não parece ser bom 
+if (name.equals(XML_NODE)) {
+			userObject = createNodeAdapter(frame, null);
+			nodeAttributes.clear();
+		} else if (name.equals("edge")) {
+			userObject = createEdgeAdapter(null, frame);
+		} else if (name.equals("cloud")) {
+			userObject = createCloudAdapter(null, frame);
+		} else if (name.equals("arrowlink")) {
+			userObject = createArrowLinkAdapter(null, null, frame);
+		} else if (name.equals("font")) {
+			userObject = null;
+		} else if (name.equals("map")) {
+			userObject = null;
+		} else if (name.equals("icon")) {
+			userObject = null;
+		} else if (name.equals("hook")) {
+			// we gather the xml element and send it to the hook after
+			// completion.
+			userObject = new XMLElement();
+		} else {
+			userObject = new XMLElement(); // for childs of hooks
+		}
+		
+- Existe um problema para métodos que possuem um retorno, exemplo:
+
+Se o método retorna uma instância de BrowseCloudModel quando a feature Cloud estiver habilitada, o método vai retornar
+o que quando ela não estiver habilitada? Já que o método vai ser injetado de qualquer jeito
+
+
+Não é possível importar inner classes privadas em um aspecto, nem usando privileged funciona.
+
+Não há como limitar a declaração de variáveis. Para um método é só executar dependendo de uma condição, mas e inter-type de variáveis?

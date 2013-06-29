@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cm:consulmodel xmlns:cm="http://www.pure-systems.com/consul/model" cm:id="il3UttUMKiLdjA-tC" cm:version="1.5" cm:type="ps:fm">
+  <cm:head>
+    <cm:properties>
+      <cm:property cm:id="i53d8S8RmB70NktlH" cm:type="ps:string" cm:invisible="true" cm:name="ps:name">
+        <cm:constant cm:id="ikSOK0ZHCfT8SZan5" cm:type="ps:string">TesteFeatures</cm:constant>
+      </cm:property>
+      <cm:property cm:id="iYTeLLPnGbFjX4LL7" cm:type="ps:string" cm:invisible="true" cm:name="ps:author">
+        <cm:constant cm:id="ibOQdwkJgEUY1mzRB" cm:type="ps:string">fhcl</cm:constant>
+      </cm:property>
+      <cm:property cm:id="iM7SH0b05pmb-YYoU" cm:type="ps:string" cm:invisible="true" cm:name="ps:version">
+        <cm:constant cm:id="idzAUb-nhS9LaCZOp" cm:type="ps:string">1.0</cm:constant>
+      </cm:property>
+      <cm:property cm:id="iHEAGX1rdKj_t62iN" cm:type="ps:datetime" cm:invisible="true" cm:name="ps:created">
+        <cm:constant cm:id="iSC1le1pe0Xqqm4rU" cm:type="ps:datetime">2007-09-03T12:48:04.666Z</cm:constant>
+      </cm:property>
+    </cm:properties>
+  </cm:head>
+  <cm:elements cm:rootid="ibU5RfrULEyRXT2rV">
+    <cm:element cm:id="ibU5RfrULEyRXT2rV" cm:name="RootFeature" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
+      <cm:properties>
+        <cm:property cm:id="ilANTptARuBKITtJr" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i3tEkMl9id8HxVAPS" cm:type="ps:string">fhcl</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iO35Yy1OFuLCxqqqC" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iwb4H0DKjYmdpiHOx" cm:type="ps:datetime">2007-09-03T12:48:04.666Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iYr_cAjs86Q0kVDg7" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iI0rCJvX4oNXf3Fp7" cm:type="ps:string">fhcl</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iHtWuPTBV8u147hiZ" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iF0aWEheKrRgQpEUw" cm:type="ps:datetime">2007-09-03T13:37:40.888Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iozKVsfheULJIJ2hv" cm:mimetype="text/plain" cm:encoding="utf-8">RootFeature</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+  </cm:elements>
+</cm:consulmodel>

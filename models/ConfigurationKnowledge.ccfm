@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cm:consulmodel xmlns:cm="http://www.pure-systems.com/consul/model" cm:id="ikiuji5-dJX5ETu8o" cm:version="1.5" cm:type="ps:ccfm">
+  <cm:head>
+    <cm:properties>
+      <cm:property cm:id="i54bjwJsZrol-BhJh" cm:type="ps:string" cm:invisible="true" cm:name="ps:name">
+        <cm:constant cm:id="ib1p_5paGwi3Hox7A" cm:type="ps:string">TesteFamily</cm:constant>
+      </cm:property>
+      <cm:property cm:id="izDQYvUuUeQLZKVaW" cm:type="ps:string" cm:invisible="true" cm:name="ps:author">
+        <cm:constant cm:id="iwXfoh0A6lWxCbSD6" cm:type="ps:string">fhcl</cm:constant>
+      </cm:property>
+      <cm:property cm:id="i1SQBJbxfaRg3CdtE" cm:type="ps:string" cm:invisible="true" cm:name="ps:version">
+        <cm:constant cm:id="iknhNosUG3ToBjtOI" cm:type="ps:string">1.0</cm:constant>
+      </cm:property>
+      <cm:property cm:id="iLEOCsmwY964sbMK4" cm:type="ps:datetime" cm:invisible="true" cm:name="ps:created">
+        <cm:constant cm:id="iMOXMi_1RIyR8LYce" cm:type="ps:datetime">2007-09-03T12:48:04.728Z</cm:constant>
+      </cm:property>
+    </cm:properties>
+  </cm:head>
+  <cm:elements cm:rootid="ibvmedfzzIrgT54pv">
+    <cm:element cm:id="ibvmedfzzIrgT54pv" cm:name="ConfigurationKnowledge" cm:type="ps:family" cm:class="ps:family" cm:default="on">
+      <cm:properties>
+        <cm:property cm:id="ihAoTIM5T8gFJ-myp" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iOVYy6CfOy-rCqch_" cm:type="ps:string">fhcl</cm:constant>
+        </cm:property>
+        <cm:property cm:id="il7JdmH709u_ZbXuy" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iQH8baMzUW__HwtV8" cm:type="ps:datetime">2007-09-03T12:48:04.728Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ijwIfhJciEth_INYR" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iQgHcelKQHPBHh5tq" cm:type="ps:string">fhcl</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ijH4uDEg_LCqyuGrb" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iRhD1hGYaJI3GzaOW" cm:type="ps:datetime">2007-09-03T13:37:58.598Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="if05uyOEtygb9hRqz" cm:mimetype="text/plain" cm:encoding="utf-8">ConfigurationKnowledge</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+  </cm:elements>
+</cm:consulmodel>
